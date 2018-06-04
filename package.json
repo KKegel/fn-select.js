@@ -1,6 +1,6 @@
 {
   "name": "fn-select.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "functional switch case alternative",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "switch",
     "case"
   ],
-  "author": "Karl Kegel (https://github.com/KKegel/fn-select.js)",
+  "author": "Karl Kegel",
+  "homepage": "https://github.com/KKegel/fn-select.js",
   "license": "MIT"
 }
