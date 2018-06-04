@@ -1,4 +1,4 @@
-# select-n
+# fn-select.js
 
 ## usage 
 
