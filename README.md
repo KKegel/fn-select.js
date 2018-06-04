@@ -32,7 +32,7 @@ select(
 
 expected output:
 
-```
+```JavaScript
 #2
 #3.1 #3.2
 ```
@@ -55,7 +55,7 @@ select(
 
 expected output:
 
-```
+```JavaScript
 4
 5
 ```
