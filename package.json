@@ -1,5 +1,5 @@
 {
-  "name": "select-n",
+  "name": "fn-select.js",
   "version": "1.0.0",
   "description": "functional switch case alternative",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "keywords": [
     "select",
-    "select-n",
+    "fn-select.js",
     "switch",
     "case"
   ],
