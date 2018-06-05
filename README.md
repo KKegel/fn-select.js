@@ -21,7 +21,7 @@ the ``select`` function itself takes a collection of ``_`` functions as paramete
 **example 1**
 
 ```JavaScript
-import {_, select} from 'select-n';
+import {_, select} from 'fn-select.js';
 
 select(
   _(false, console.log, '#1'),
@@ -40,7 +40,7 @@ expected output:
 **example 2**
 
 ```JavaScript
-import {_, select} from 'select-n';
+import {_, select} from 'fn-select.js';
 
 function add(x, y){
   return x+y;
