@@ -4,15 +4,32 @@
   "description": "functional switch case alternative",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --all --runInBand --forceExit"
+  },
+  "jest": {
+    "collectCoverage": true
   },
   "keywords": [
     "select",
+    "react switch",
+    "react case block",
     "fn-select.js",
     "switch",
     "case"
   ],
   "author": "Karl Kegel",
   "homepage": "https://github.com/KKegel/fn-select.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^23.0.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "transform-es2015-classes",
+      "transform-object-rest-spread"
+    ]
+  }
 }
